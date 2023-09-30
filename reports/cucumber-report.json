@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src/step-definitions/login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5163263267
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter my valid email and password",
+            "match": {
+              "location": "src/step-definitions/login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156666009
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be logged in and see the dashboard",
+            "match": {
+              "location": "src/step-definitions/login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2025020906
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Login",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]

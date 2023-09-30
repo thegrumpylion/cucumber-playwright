@@ -7,7 +7,7 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "ESNext",
+    "module": "CommonJS",
     "skipLibCheck": true,
     "esModuleInterop": true,
     /* Bundler mode */
