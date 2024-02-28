@@ -21,6 +21,7 @@ function App() {
             required
             fullWidth
             id="email"
+            data-testid="email"
             label="Email Address"
             name="email"
             autoComplete="email"
@@ -35,10 +36,12 @@ function App() {
             label="Password"
             type="password"
             id="password"
+            data-testid="password"
             autoComplete="current-password"
           />
           <Button
             type="submit"
+            data-testid="submit"
             fullWidth
             variant="contained"
             color="primary"
